@@ -1,0 +1,7 @@
+<!--pages/checkIn/checkIn.wxml-->
+<!-- <text>pages/checkIn/checkIn.wxml</text> -->
+<button bindtap='toast' class='item-container'>{{click}}</button>
+<view class='item-container'>
+  <!--序列号  -->
+  {{title}}
+</view>

@@ -1,0 +1,13 @@
+<!--pages/profile/profile.wxml-->
+<!-- <text>pages/profile/profile.wxml</text> -->
+
+<navigator 
+wx:for="{{dataList}}" 
+wx:key="{{item.key}}"
+url='../{{item.key}}'
+>
+ <view class='item-container'>
+  <!--序列号  -->
+  <text>{{item.title}}</text>
+ </view>
+</navigator>
